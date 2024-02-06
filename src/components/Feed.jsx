@@ -13,6 +13,8 @@ const Feed = () => {
       .then((data) => setPrompts(data));
   }, []);
 
+  console.log(prompts);
+
   const handleSearchText = (e) => {
     e.preventDefault();
 
